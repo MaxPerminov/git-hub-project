@@ -1,10 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Application</title>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our first project</title>
+    <link 
+    rel="shortcut icon"
+    href="/git-hub-project/public/icons/lexus.png"
+    type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/git-hub-project/public/styles/style.css">
   </head>
-  
   <body>
-    <h1>Hello world</h1>
+    <!--Anti-pattern-->
+    <!--<h1><p><a href=""></a></p></h1>-->
+    
+    
+    <!--* TAGS-->
+    <!-- * Block, inline-->
+    
+    <!-- <a href="https://google.com">google</a>
+    <a href="https://facebook.com">Facebook</a>
+    <a href="https://youtube.com">youtube</a>
+    <h1>Hello</h1>
+    <h2>World</h2>
+    <h3>Glad</h3>
+    <h4>To</h4>
+    <h5>See</h5>
+    <h6>You</h6> -->
+    
+    <!--<p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum assumenda facilis! Modi soluta molestias cupiditate expedita quae veritatis reiciendis vel dolorem magnam laudantium facilis optio sint, error earum ullam.
+    </p>-->
+    
+    <!-- div(block) span(inline) -->
+    
+    <!-- <div>Hello</div>
+      <div>World</div>
+      
+      <span>Hello</span>
+      <span>World</span> -->
+      
+      <!-- *Semantic -->
+      <!-- header, main, footer, aside, section, nav..... -->
+      <div id="app">
+        <header>
+          <nav>
+          <!-- unordered list -->
+          <ul id="one" class="items">
+            <!-- list-item -->
+            <li>Lexus</li>
+            <li>SC</li>
+            <li>43</li>
+          </ul>
+          
+          <ul id="two" class="items2">
+            <!-- list-item -->
+            <li>Lexus</li>
+            <li>SC</li>
+            <li>430</li>
+          </ul>
+        </nav>
+      </header>   
+      
+      <main>
+        <div id="main">
+          <h1>Lexus</h1>
+          <p>
+            Known as the Lexus SC in the U.S., the Toyota Soarer's primary market had almost completely shifted to North America; therefore for the fourth generation model introduced in April 2001, Toyota decided to give its prize luxury coupe distinctive American styling cues. One of those was making the car both a coupe and convertible by incorporating a retractable hard top.
+          </p>
+          
+          <hr>
+          
+          <p>
+            The body was designed by Greek stylist Sotiris Kovos, who gave the car a unique look that elicited both positive and negative responses. It measured 177.7 inches from bumper to bumper and 71.8 inches wide. It became a true 2+2, only able to seat four people (the previous model was a 5-seater).
+          </p>
+          
+          <hr>
+          
+          <p>
+            Under the sloping hood was a 4.3-liter DOHC V8 that featured variable valve timing and produced 276 HP. In U.S. spec, output was rated as 300 HP. The engine came mated to a 5-speed automatic transmission with AI-SHIFT, which adapts to a person's driving style. The new Soarer's chassis was beefed up to ensure rigidity when the roof was down, and the fully independent suspension system (double wishbone at both front and rear) ensured sports car like handling, though purists complained that it was tuned too soft.
+          </p>
+          
+          <hr>
+          <p>
+            But this Soarer was more about luxury, and its interior trim suggested as much. Wood and high grade leather were everywhere. The car had a plethora of safety equipment too: including dual side air bags, TRC, VCS, brake assist, and ABS with EBD.
+          </p>
+          
+          <hr>
+          
+        
+          <img class="one"
+          src="/git-hub-project/public/images/478. 8-25 Lexus SC430(US) '2001.jpg" 
+          alt="Lexus SC430"
+          width="90%"
+          >
+                
+
+        </div>        
+        
+      </main>
+      
+      <footer>
+        <span id="footer-title" class="footer__title">
+          All rights reserved (c) 2022
+        </span>
+      </footer>      
+    </div>
+    
+    <!-- <script>
+      const container = document.getElementById('one');
+      
+      container.addEventListener('click', e => {
+        e.preventDefault();
+        
+        alert('Hello World');
+      });
+    </script> -->
   </body>
-</html>
+  </html>
